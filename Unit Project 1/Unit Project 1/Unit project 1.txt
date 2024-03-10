@@ -1,0 +1,83 @@
+OPTION 1 FORMULAS
+
+		pow(side_B, 2) + pow(side_C, 2) - pow(side_A, 2)
+angle_A = acos	________________________________________________
+	  	             2 * side_B * side_C
+
+
+		pow(side_A, 2) + pow(side_C, 2) - pow(side_B, 2)
+angle_B = acos	________________________________________________
+		             2 * side_A * side_C
+
+
+
+
+angle_C = 180 - (angle_A + angle_B);
+
+
+
+Area = sqrt(s*(s-side_A)*(s-side_B)*(s-side_C))
+
+
+
+OPTION 2 FORMULAS
+
+
+			2 * Area
+InRadius = 	________________________
+		side_A + side_B + side_C
+
+AreaIR = pi * (pow(InRadius, 2))
+
+rArea = Area - AreaIR
+
+
+OPTION 3 FORMULAS
+
+
+OutRadius =	sqrt((side_A * side_B * side_C)/((side_A + side_B + side_C) * (side_B + side_C - side_A) * (side_C + side_A - side_B) * (side_A + side_B - side_C)))
+
+
+AreaOR = pi * (pow(OutRadius, 2));
+
+rArea = Area - AreaOR;
+
+
+
+
+
+
+			cout <<"           C \n";
+			cout <<"          / \\ \n";
+			cout <<"         /   \\ \n";
+			cout <<"       a/  .  \\b \n";
+			cout <<"       /.  R1 .\\ \n";
+			cout <<"      /.   *-->.\\ \n';
+			cout <<"     /  .     .  \\ \n";
+			cout <<"    /      .      \\ \n";
+			cout <<"   /_______________\\ \n";
+			cout <<"  B         c       A \n\n\n";
+
+
+
+
+
+
+
+			cout <<"             .             \n";
+			cout <<"       .      ^ C  .       \n";
+			cout <<"             /|\\          \n";
+			cout <<"   .        / | \\     .   \n";
+			cout <<"          a/  |  \\b       \n";
+			cout <<" .        /   |   \\     . \n";
+			cout <<"         /    *R2  \\      \n';
+			cout <<"  .     /           \\  .  \n";
+			cout <<"       /             \\    \n";
+			cout <<"    . /_______________\\   \n";
+			cout <<"    B         c       A   \n";
+			cout <<"        .           .     \n";
+			cout <<"              .           \n";
+			cout <<"                          \n\n\n";
+
+
+
